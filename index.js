@@ -55,4 +55,7 @@ app.get("/dogs", (req, res) => {
   );
 });
 
-app.listen(4200);
+app.listen(4200, err => {
+  if (err) throw err;
+  console.log("server listening on *:4200");
+});
