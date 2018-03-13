@@ -1,2 +1,4 @@
 # node-google-sheets
-node app that makes requests to the google sheets API
+Node.js app
+
+Makes requests to the google sheets API by wraping the google sheets API with Node.js and Express. 
